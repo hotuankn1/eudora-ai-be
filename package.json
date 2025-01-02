@@ -1,0 +1,26 @@
+{
+  "name": "eudoraai-be",
+  "version": "1.0.0",
+  "description": "Backend for the virtual 3d Model app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "finetune": "node fine-tune-model.js",
+    "delete-finetune": "node delete-fine-tune-model",
+    "dev": "nodemon index.js --ext js"
+  },
+  "author": "Wawa SENSEI <contact@wawasensei.dev>",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "elevenlabs-node": "^1.2.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.76.3",
+    "rhubarb-lip-sync": "^0.0.1-alfa-3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
